@@ -1,9 +1,9 @@
 ## FAUZAN NOTE :
 "Aplikasi Catalog-Film adalah sebuah aplikasi web yang dirancang untuk mengelola dan menampilkan informasi tentang film dan menampilkan layarmuka yang interaktif"
-Struktuf foldernya
-catalog-film/client (front-end)
-catalog-film/server (java-springboot)
-MySQL (Ddatabase)
+## Struktur folder dan teknologi
+- catalog-film/client (front-end)
+- catalog-film/server (java-springboot)
+- MySQL (Ddatabase)
 
 1. Persiapkan Lingkungan Pengembangan
     - Instal Node.js dan npm:
