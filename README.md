@@ -3,6 +3,7 @@
 Struktuf foldernya
 catalog-film/client (front-end)
 catalog-film/server (java-springboot)
+MySQL (Ddatabase)
 
 1. Persiapkan Lingkungan Pengembangan
     - Instal Node.js dan npm:
