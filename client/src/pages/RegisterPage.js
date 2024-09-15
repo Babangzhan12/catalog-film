@@ -78,7 +78,7 @@ const RegisterPage = () => {
   return (
     <div className="register-panel shadow-8 p-fluid">
       <div className="w-full max-w-md bg-white p-8 shadow-md rounded-lg">
-        <h2 className="text-2xl font-bold mb-6">Register</h2>
+        <h1>Register</h1>
         {loading && (
           <ProgressBar mode="indeterminate" style={{ width: "100%" }} />
         )}
@@ -88,9 +88,11 @@ const RegisterPage = () => {
             <Message severity="success" text={success} />
           </div>
         )}
-        <form onSubmit={handleSubmit}>
-          <div className="p-field mb-4">
-            <label htmlFor="username">Username</label>
+        <form onSubmit={handleSubmit} >
+          <div className="p-field mb-3">
+            <label htmlFor="username" className="form-label">
+              Username
+            </label>
             <InputText
               id="username"
               name="username"
@@ -99,8 +101,8 @@ const RegisterPage = () => {
               placeholder="Enter your username"
             />
           </div>
-          <div className="p-field mb-4">
-            <label htmlFor="password">Password</label>
+          <div className="p-field mb-3">
+            <label htmlFor="password" className="form-label">Password</label>
             <Password
               id="password"
               name="password"
@@ -112,8 +114,8 @@ const RegisterPage = () => {
               placeholder="Enter your password"
             />
           </div>
-          <div className="p-field mb-4">
-            <label htmlFor="email">Email</label>
+          <div className="p-field mb-3">
+            <label htmlFor="email" className="form-label">Email</label>
             <InputText
               id="email"
               name="email"
