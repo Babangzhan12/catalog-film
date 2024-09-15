@@ -90,9 +90,6 @@ const FilmAdminEditPage = () => {
       } catch (error) {
         console.error('Error processing upload response:', error);
       }
-    // const response = JSON.parse(event.xhr.response);
-    // const _films = films;
-    // _films.imageThumbnail = response.fileName;
   };
 
   const onBeforeSend = (event) => {

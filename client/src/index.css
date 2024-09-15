@@ -111,50 +111,32 @@ html {
   margin-bottom: 0.2rem;
 }
 
-/* .form-input {
-  width: 100%; 
-  padding: 0.5rem; 
-} */
-
 
 /* Hero */
 
 #hero {
   height: 100vh;
-  /* padding: 6rem 0; */
   background: #fbfbfb;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(to right, #ffffff 38%, #6E79C6 100%);
   display: flex;
-  align-items: center; /* Memusatkan konten secara vertikal */
-  justify-content: center; /* Memusatkan konten secara horizontal */
-  /* margin: 0;
-  padding: 0; */
+  align-items: center; 
+  justify-content: center; 
+
 }
 
 .main-container{
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; */
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1200px; /* Maksimal lebar untuk hero section */
+  max-width: 1200px;
   padding: 20px;
 }
 
 .hero-grid {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: center;
-  width: 80%;
-  max-width: 1200px; */
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -162,14 +144,6 @@ html {
   max-width: 1200px; 
 
 }
-
-/* .hero-left {
-  flex: 1;
-}
-
-.hero-right {
-  flex: 1;
-} */
 
 .pre-title {
   font-size: 24px;

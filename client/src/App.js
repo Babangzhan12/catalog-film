@@ -9,6 +9,7 @@ import FilmAdminCreatePage from './pages/admin/ProdukAdminCreatePage';
 import FilmAdminDetailPage from './pages/admin/FilmAdminDetailPage';
 import FilmAdminEditPage from './pages/admin/FilmAdminEditPage';
 import RegisterPage from './pages/RegisterPage';
+import PenggunaAdminPage from './pages/admin/PenggunaAdminPage';
 
 const App = () =>  {
   return(
@@ -19,6 +20,11 @@ const App = () =>  {
       <Route path='/admin/dashboard' element={
           <ProtectedRoute>
             <DashboardAdminPage />
+          </ProtectedRoute>
+      } />
+      <Route path='/admin/pengguna' element={
+          <ProtectedRoute>
+            <PenggunaAdminPage />
           </ProtectedRoute>
       } />
       <Route path='/admin/film' element={
